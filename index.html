@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:;base64,=">
+    <title>lo-ki-lo</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+       <div class="container__header">
+         <a class="header__logo" href="https://lokilo.com.ua/" target="_blank">
+            <img class="logo__img" src="./images/icon/logo.png">
+            <span class="logo__text">lo-ki-lo</span>
+         </a>
+         <form class="header__search" type="GET">
+            <div class="header__search-input-wrapper">
+               <input class="header__search-input" type=text placeholder="поиск товара">
+            </div>
+            <div class="header__search-dropdown">
+               
+               <div data-select class="header-select">
+                  <div data-select-title class="header-select__title">АЛМАЗНАЯ ВЫШИВКА</div>
+                  <div class="header-select__dropdown hidden">
+                     <div data-select-item="Абстракции" class="header-select__dropdown-item">Абстракции</div>
+                     <div data-select-item="Натюрморты" class="header-select__dropdown-item">Натюрморты</div>
+                     <div data-select-item="Бабочки" class="header-select__dropdown-item">Бабочки</div>
+                     <div data-select-item="Цветы" class="header-select__dropdown-item">Цветы</div>
+                     <div data-select-item="Птицы" class="header-select__dropdown-item">Птицы</div>
+                     <div data-select-item="Животные" class="header-select__dropdown-item">Животные</div>
+                     <div data-select-item="Пейзажи" class="header-select__dropdown-item">Пейзажи</div>
+                     <div data-select-item="Детство" class="header-select__dropdown-item">Детство</div>
+                     <div data-select-item="Магнит На Холодильник" class="header-select__dropdown-item">Магнит на холодильник</div>
+                     <div data-select-item="Вышивка Крестиком" class="header-select__dropdown-item">Вышивка крестиком</div>
+                     <div data-select-item="КУПАЛЬНИКИ" class="header-select__dropdown-item">КУПАЛЬНИКИ</div>
+                     <div data-select-item="ПРОЧЕЕ" class="header-select__dropdown-item">ПРОЧЕЕ</div>
+                     </div>
+               </div>
+
+               <select class="hidden" id="selectReal" name="select" value="none">
+                  <option value="none">АЛМАЗНАЯ ВЫШИВКА</option>
+                  <option value="Абстракции">Абстракции</option>
+                  <option value="Натюрморты">Натюрморты</option>
+                  <option value="Бабочки">Бабочки</option>
+                  <option value="Цветы">Цветы</option>
+                  <option value="Птицы">Птицы</option>
+                  <option value="Животные">Животные</option>
+                  <option value="Пейзажи">Пейзажи</option>
+                  <option value="Детство">Детство</option>
+                  <option value="Магнит На Холодильник">Магнит на холодильник</option>
+                  <option value="Вышивка Крестиком">ВЫШИВКА КРЕСТИКОМ</option>
+                  <option value="КУПАЛЬНИКИ">КУПАЛЬНИКИ</option>
+                  <option value="ПРОЧЕЕ">ПРОЧЕЕ</option>
+               </select>
+            </div>
+            <div class="header__search-button-wrapper">
+               <button class="header__search-button" type="submit">
+                  <img src="./images/icon/search-icon.svg" alt="logo-search">
+               </button>
+            </div>
+         </form>
+         <div class="header__buttons">
+            <div class="header-button">
+               <div class="header-button__icon header-button-point">
+                  <img src="./images/icon/cart.svg" alt="cart">
+               </div>
+               <div class="header-button__text">2 items</div>
+            </div>
+            <div class="header-button">
+               <div class="header-button__icon"></div>
+               <div class="header-button__text"></div>
+            </div>
+            <div class="header-button">
+               <div class="header-button__icon"></div>
+               <div class="header-button__text"></div>
+            </div>
+
+
+         </div>
+       </cdiv>
+    </header>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
