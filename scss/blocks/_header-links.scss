@@ -1,5 +1,7 @@
 .header-link {
-   vertical-align: middle;
+   // vertical-align: middle;
+   display: flex;
+   justify-content: space-between;
    align-items:center;
    text-decoration: none;
    color: #808080;
@@ -7,8 +9,8 @@
    &:not(:last-child){
       margin-right: 32px;
    }
-   .icon-svg {
-      color:rgb(128, 128, 128);
+   .icon-svg,  .icon-hearth-svg {
+      fill:grey;
    }
    &:hover {
       color: #1875f0;
@@ -39,7 +41,6 @@
 
 }
 .header-link__text {
-
    font-size: 14px;
    font-weight: 500;
    line-height: 1;
