@@ -1,0 +1,47 @@
+$border:2px solid #f5f5f5;
+
+.header-nav {
+   width: 1110px;
+   margin: 0 auto; 
+   display:flex;
+   border-left:$border;
+   border-right: $border;
+   height:60px;
+   background-color: rgb(221, 200, 200);
+}
+.header-nav__categories {
+   border-right: $border;
+   width:200px;
+}
+.header-nav__deals {
+   display:flex;
+   flex-grow: 1;
+   align-items: center;
+   border-right: $border;
+   width:560px;
+   background-color: rgb(217, 215, 228);
+   padding: 0 35px 0 35px;
+}
+.header-nav__link {
+   display:flex;
+   align-items: center; 
+   height:100%;
+   color: #808080;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 1;
+   text-decoration: none;
+   &:not(:last-child){
+      margin-right: 35px;
+   }
+   &:hover{
+      color: $color-progect;
+   }
+}
+.header-nav__select {
+   border-right: $border;
+   background-color: rgb(235, 252, 5);
+}
+.header-categories-link {
+
+}

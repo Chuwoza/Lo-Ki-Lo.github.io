@@ -13,10 +13,10 @@
       fill:grey;
    }
    &:hover {
-      color: #1875f0;
+      color: $color-progect;
       .icon-svg {
-         fill : #1875f0;
-         // stroke :#1875f0;
+         fill : $color-progect;
+         // stroke :$color-progect;
       }
       .icon-hearth-svg {
          fill : #e70707;
@@ -36,7 +36,7 @@
    content:"";
    width: 6px;
    height: 6px;
-   background-color: #1875f0;
+   background-color: $color-progect;
    border-radius: 3px;
 
 }

@@ -59,3 +59,15 @@
       transform: scale(1.02);
    }
 }
+.header-select.header-select--nav {
+  padding: 0 28px 0 28px;
+   .header-select__title {
+      width: auto;
+      padding-right: 20px;
+      height: 14px;
+      color: #b3b3b3;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1;
+   }
+}

@@ -3,7 +3,7 @@
   height: 180px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
-.container__header {
+.header__container {
    max-width:1100px;
    display:flex;
    justify-content:space-between;
@@ -95,5 +95,5 @@ padding-left: 10px;
    justify-content: space-between;
 }
 .header__nav{
-    border-top:2px solid #f5f5f5;
+   border-top:2px solid #f5f5f5;
 }

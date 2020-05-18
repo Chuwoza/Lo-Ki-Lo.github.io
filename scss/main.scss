@@ -1,7 +1,11 @@
 // Base
+@import "./base/veriables";
 @import "./base/base";
 
 //Blocks
 @import "./blocks/header";
 @import "./blocks/header-select";
 @import "./blocks/header-links";
+@import "./blocks/header-nav";
+@import "./blocks/header-categories-link";
+

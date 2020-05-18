@@ -23,7 +23,7 @@
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
 }
 
-.container__header {
+.header__container {
   max-width: 1100px;
   display: flex;
   justify-content: space-between;
@@ -196,6 +196,20 @@
   transform: scale(1.02);
 }
 
+.header-select.header-select--nav {
+  padding: 0 28px 0 28px;
+}
+
+.header-select.header-select--nav .header-select__title {
+  width: auto;
+  padding-right: 20px;
+  height: 14px;
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+}
+
 .header-link {
   display: flex;
   justify-content: space-between;
@@ -241,6 +255,86 @@
 }
 
 .header-link__text {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.header-nav {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  border-left: 2px solid #f5f5f5;
+  border-right: 2px solid #f5f5f5;
+  height: 60px;
+  background-color: #ddc8c8;
+}
+
+.header-nav__categories {
+  border-right: 2px solid #f5f5f5;
+  width: 200px;
+}
+
+.header-nav__deals {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  border-right: 2px solid #f5f5f5;
+  width: 560px;
+  background-color: #d9d7e4;
+  padding: 0 35px 0 35px;
+}
+
+.header-nav__link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #808080;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.header-nav__link:not(:last-child) {
+  margin-right: 35px;
+}
+
+.header-nav__link:hover {
+  color: #1875f0;
+}
+
+.header-nav__select {
+  border-right: 2px solid #f5f5f5;
+  background-color: #ebfc05;
+}
+
+.header-categories-link {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 40px 0 30px;
+  text-decoration: none;
+  color: #808080;
+}
+
+.header-categories-link:hover {
+  color: #1875f0;
+}
+
+.header-categories-link:hover svg {
+  fill: #1875f0;
+}
+
+.header-categories-link-icon {
+  margin-right: 23px;
+}
+
+.header-categories-link-icon svg {
+  fill: grey;
+}
+
+.header-categories-link-text {
   font-size: 14px;
   font-weight: 500;
   line-height: 1;
